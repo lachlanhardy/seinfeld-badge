@@ -11,13 +11,11 @@ function seinfeldCan() {
       
   }); 
   
-  $.getJSON("http://pipes.yahoo.com/pipes/pipe.run?_id=bDVGIHwj3hGmWk5qZMag4A&_render=json&_callback=?", function(calendar){
+ $.getJSON("http://pipes.yahoo.com/pipes/pipe.run?_id=bDVGIHwj3hGmWk5qZMag4A&_render=json&_callback=?", function(calendar){
       console.log(calendar.value.items[0].content);
       
       var table = $("<div id=\"table\"/>").html(calendar.value.items[0].content);
       $("#seinfeld-can").append(table);
   });
-  
-  
   
 }
