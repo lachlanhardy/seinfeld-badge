@@ -1,7 +1,7 @@
 /****
-Github Activity Badge
+Calendar About Nothing Badge
 http://lachstock.com.au/
-20081027
+20090418
 
 ****/
 
@@ -13,75 +13,16 @@ body {background: #fff; color: #0e0e0e; font: 62.5%/1.3 Arial, 'Helvetica Neue',
   #header {background: #0e0e0e; border-bottom: 2px solid #666; color: #fff; font-size: 1.5em; padding: 0.2em 1em 0.5em 1em;}
     #header h1 {background: #0e0e0e; color: #ff8000; font-weight: 700; letter-spacing: 0.06em; margin: 0;}
   
-    #calendar{
-      padding:0 0 20px 0;
-      background:#fff;
-      font-size:16px;
-      border-top:2px solid #000;
-      border-bottom:1px solid #000;
-    }
-
-    #calendar table{
-      border-spacing:none;
-      border-collapse:collapse;
-      width: 100%;
-    }
-
-    #calendar table th.monthName{
-      padding:10px 0;
-      letter-spacing:5px;
-      text-transform:uppercase;
-      color:#b20000;
-    }
-    #calendar table th a{
-      display:block;
-      color:#00538d;
-      font-weight:normal;
-      text-align:left;
-      text-decoration:none;
-      font-size:11px;
-      text-transform:uppercase;
-    }
-    #calendar table th a.next{ text-align:right; }
-
-    #calendar table td{
-      position:relative;
-      text-align:center;
-      font-weight:bold;
-    }
-    #calendar table td.otherMonth{
-      color:#ccc;
-    }
-
-    tr.dayname th{
-      padding:5px 0;
-      text-transform:uppercase;
-      color:#666;
-      font-weight:normal;
-      letter-spacing:2px;
-      border:1px solid #eee;
-      border-left:none;
-      border-right:none;
-    }
-    tr.dayname abbr{
-      border:none;
-    }
-    
-    .otherMonth .xmarksthespot{
-      opacity:0.2;
-    }
-
-    .xmarksthespot{
-        margin: -1.3% 0 0 0;
-        position:absolute;
-        z-index:100;
-    }
-
-    .today {
-      color: green;
-    }
-    
-
+    #calendar {border-bottom: 1px solid #000; border-top: 2px solid #000;}
+        #calendar table {width: 100%;}
+            #calendar th.monthName{color: #b20000; letter-spacing: 5px; padding: 5px 0; text-transform: uppercase;}
+            #calendar tr.dayname th {color: #666; font-weight: 300; letter-spacing: 2px; padding: 5px 0; text-transform: uppercase;}
+            #calendar td {font-weight: 700; position: relative; text-align: center;}
+            #calendar td.otherMonth {color: #ccc;}
+            #calendar td.today {color: green;}
+                #calendar .xmarksthespot{margin: -1.3% 0 0 0; position: absolute; z-index: 100;}
+                #calendar .otherMonth .xmarksthespot{opacity: 0.2;}
+            
 
 /* - =JS enabled - */
 
