@@ -8,7 +8,7 @@ http://lachstock.com.au/
     .seinfeld-can #calendar {border-bottom: 1px solid #000; border-top: 2px solid #000; margin: 1em 0 0.5em 0; padding: 0 5px 5px 5px;}
         .seinfeld-can table {width: 100%;}
             .seinfeld-can th.monthName{color: #b20000; font-weight: 700; letter-spacing: 5px; padding: 5px 0; text-align: center; text-transform: uppercase;}
-            .seinfeld-can tr.dayName th {font-weight: 700; letter-spacing: 2px; padding: 5px 0; text-transform: uppercase;}
+            .seinfeld-can tr.dayName th {font-weight: 700; letter-spacing: 2px; padding: 5px 0;  text-align: center; text-transform: uppercase;}
             .seinfeld-can td {position: relative; text-align: center;}
             .seinfeld-can td.otherMonth {color: #ccc;}
             .seinfeld-can td.today {color: green;}
