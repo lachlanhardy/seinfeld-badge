@@ -26,5 +26,6 @@ function seinfeldCan() {
                                                      .append(longestStreak);
             seinfeld.append(streaks);
         });
+        
     });
 }
