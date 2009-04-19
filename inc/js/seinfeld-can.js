@@ -25,7 +25,7 @@ function seinfeldCan() {
             var streaks = $("<p class=\"streaks\"/>").append(currentStreak)
                                                      .append(longestStreak);
             seinfeld.append(streaks);
+            seinfeld.append($("<p class=\"pimpage\"><a href=\"http://github.com/lachlanhardy/seinfeld-can\">Want your own badge?</a></p>"));
         });
-        
     });
 }
