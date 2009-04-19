@@ -1,6 +1,6 @@
-A semi-functional half-built JS badge for http://calendaraboutnothing.com/
+A jQuery badge for http://calendaraboutnothing.com/ using Pipes and YQL
 
-Still need to:
- - pass usernames to the Pipe
- - style the table
- - do the crosses overlay.
+To add to any page:
+* include the seinfeld-can.js file
+* include an HTML element with a class of 'seinfeld-can' and another class for the user whose account your want: 'user-lachlanhardy'
+* call seinfeldCan();
