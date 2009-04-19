@@ -1,5 +1,5 @@
-function seinfeldCan() {
-   $(".seinfeld-can").each(function() {
+function seinfeldBadge() {
+   $(".seinfeld-badge").each(function() {
         var seinfeld = $(this);
         var username = seinfeld.attr("class").replace(/.*user-([a-z0-9]+).*/gi, "$1");
        
@@ -25,7 +25,7 @@ function seinfeldCan() {
             var streaks = $("<p class=\"streaks\"/>").append(currentStreak)
                                                      .append(longestStreak);
             seinfeld.append(streaks);
-            seinfeld.append($("<p class=\"pimpage\"><a href=\"http://github.com/lachlanhardy/seinfeld-can\">Want your own badge?</a></p>"));
+            seinfeld.append($("<p class=\"pimpage\"><a href=\"http://github.com/lachlanhardy/seinfeld-badge\">Want your own badge?</a></p>"));
         });
     });
 }
