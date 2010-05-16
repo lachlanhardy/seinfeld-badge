@@ -1,4 +1,4 @@
-A jQuery badge for http://calendaraboutnothing.com/ using Pipes and YQL
+A jQuery badge for http://calendaraboutnothing.com/ using YQL
 
 To add to any page:
 * include the seinfeld-badge.js file
