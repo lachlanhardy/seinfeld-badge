@@ -19,5 +19,5 @@ http://github.com/lachlanhardy/seinfeld-badge
         .seinfeld-badge p.streaks strong {font-weight: 700;}
         .seinfeld-badge p.streaks strong em,
         .seinfeld-badge p.streaks strong a {font-style: normal; font-weight: 300;}
-    .seinfeld-badge .longest {float: right; margin: -1.3em 0 0 0; width: auto;}
+    .seinfeld-badge .longest {float: right; width: auto;}
     .seinfeld-badge p.pimpage {float: right; color: #ccc; font-size: 0.8em; margin: 0.5em 0.4em 0 0.4em; width: auto;}
