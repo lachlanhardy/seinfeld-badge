@@ -12,7 +12,7 @@ http://github.com/lachlanhardy/seinfeld-badge
             .seinfeld-badge td {position: relative; text-align: center;}
             .seinfeld-badge td.otherMonth {color: #ccc;}
             .seinfeld-badge td.today {color: green;}
-                .seinfeld-badge .xmarksthespot {margin: -1.2em 0 0 0; position: absolute; z-index: 100;}
+                .seinfeld-badge .xmarksthespot {margin: -1.3% 0 0 0; position: absolute; z-index: 100;}
                 .seinfeld-badge .otherMonth .xmarksthespot {opacity: 0.2;}
             .seinfeld-badge p {margin: 0;}
 
