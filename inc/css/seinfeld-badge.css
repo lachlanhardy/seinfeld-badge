@@ -8,7 +8,7 @@ http://github.com/lachlanhardy/seinfeld-badge
     .seinfeld-badge #calendar {border-bottom: 1px solid #000; border-top: 2px solid #000; margin: 1em 0 0 0; padding: 0 5px 5px 5px;}
         .seinfeld-badge table {width: 100%;}
             .seinfeld-badge th.monthName {color: #b20000; font-weight: 700; letter-spacing: 5px; padding: 5px 0 0 0; text-align: center; text-transform: uppercase;}
-            .seinfeld-badge tr.dayName th {font-weight: 700; letter-spacing: 2px; padding: 5px 0;  text-align: center; text-transform: uppercase;}
+            .seinfeld-badge tr.dayName th {width: 14.2%; font-weight: 700; letter-spacing: 2px; padding: 5px 0;  text-align: center; text-transform: uppercase;}
             .seinfeld-badge td {position: relative; text-align: center;}
             .seinfeld-badge td.otherMonth {color: #ccc;}
             .seinfeld-badge td.today {color: green;}
